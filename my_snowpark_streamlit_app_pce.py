@@ -124,6 +124,6 @@ def load_data(session):
         st.bar_chart(data=pd_df_pce_all['PCE'], width=0, height=500, use_container_width=True)
     
 
-#if __name__ == "__main__":
-#    session = create_session_object()
-#    load_data(session)
+if __name__ == "__main__":
+    session = create_session_object()
+    load_data(session)
