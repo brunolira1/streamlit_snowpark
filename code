@@ -23,9 +23,9 @@ st.set_page_config(
 # Create Session object
 def create_session_object():
     connection_parameters = {
-   "account": "<account_identifier",
-   "user": "<username",
-   "password": "<password>",
+   "account": "uj76869.us-east-2.aws",
+   "user": "bruno_lira",
+   "password": "Bidu_2379",
    "warehouse": "compute_wh",
    "role": "accountadmin",
    "database": "SUMMIT_HOL",
